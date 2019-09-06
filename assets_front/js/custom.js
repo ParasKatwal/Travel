@@ -30,12 +30,12 @@ $(document).ready(function(){
     });
     $(window).scroll(function() {
         if ($(this).scrollTop() > 0) {
-          $('.top-nav').fadeOut();
+          $('.top_nav').fadeOut();
         } else {
-          $('.top-nav').fadeIn();
+          $('.top_nav').fadeIn();
         }
     });
-
+    
     $('.collapse').collapse()
 
     $('.upcoming_slider').slick({
@@ -50,6 +50,15 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         pauseOnHover: true,
     });
+
+    $(".diamond_insta").diamonds({
+        size : 210,
+        gap : 5,
+        hideIncompleteRow :false,
+        autoRedraw :true,
+        itemSelector :".item"
+    });
+        
 
 });
   

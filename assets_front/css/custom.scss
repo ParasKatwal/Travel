@@ -83,40 +83,71 @@ a{
     color: color(primary);
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
+    h3{
+        font-weight: bolder;
+    }
+    p{
+        color: black;
+    }
 }
-
-// HEADER
-header{
+.notch_wrapper{
+    position: relative;
+}
+.notch_wrapper:before{
+    content: "";
+    height: 100px;
+    background: url(../img/wave-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
-    .top-nav{
-        position: fixed;
-        z-index: 2;
-        background: color(primary);
-        left: 0;
-        right: 0;
-        color: white;
-        span{
+    transform: rotateZ(180deg);
+}
+.notch_wrapper:after{
+    content: "";
+    height: 100px;
+    background: url(../img/wave-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+// HEADER
+.top_nav{
+    z-index: 2;
+    background: color(primary);
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    span{
+        font-size: 12px;
+    }
+    .top_socialmedia{
+        i{
+            padding: 5px;
+            border: 0.5px solid color(primary);
+            border-radius: 5px;
+            transition: 1s ease;
+            margin: 3px;
+            color: white;
             font-size: 12px;
         }
-        .top_socialmedia{
-            i{
-                padding: 5px;
-                border: 0.5px solid color(primary);
-                border-radius: 5px;
-                transition: 1s ease;
-                margin: 3px;
-                color: white;
-                font-size: 12px;
-            }
-            i:hover{
-                border: 0.5px solid white;
-            }
+        i:hover{
+            border: 0.5px solid white;
         }
     }
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
     nav{
         position: fixed !important;
         top: 20px;
@@ -352,9 +383,12 @@ header{
         width: 50px;
         left: -70px;
     }
+    a{
+        color: color(primary);
+    }
 }
 .why_us{
-    background: linear-gradient(rgba(155, 0, 0, 0.6), rgba(155, 0, 0, 0.6)), url(../img/why2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(155, 0, 0, 0.6)), url(../img/why2.jpg);
     height: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -380,32 +414,10 @@ header{
         padding: 30px;
     }
 }
-.why_us:before{
-    content: "";
-    height: 100px;
-    background: url(../img/wave-large.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    right: 0;
-    transform: rotateZ(180deg);
-}
-.why_us:after{
-    content: "";
-    height: 100px;
-    background: url(../img/wave-large.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 .discover{
     margin: 30px auto;
     margin-top: 60px;
+    padding-bottom: 20px;
     a{
         position: absolute;
         top: 85%;
@@ -482,6 +494,7 @@ header{
 }
 .packages{
     margin-top: 50px;
+    margin-bottom: 30px;
     .accordion{
         button{
             width: 100%;
@@ -523,7 +536,7 @@ header{
             bottom: 0;
             right: 0;
             left: 0;
-            opacity: 0;
+            transform: scaleX(0);
             transition: 1s ease;
             button{
                 background: color(secondary);
@@ -539,7 +552,7 @@ header{
         }
     }
     .package_wrap:hover .details{
-        opacity: 1;
+        transform: scaleX(1);
     }
     .package_wrap:hover .cost{
         opacity: 0;
@@ -598,7 +611,7 @@ header{
     }
 }
 .testimonials{
-    background: linear-gradient(rgba(155, 0, 0, 0.6), rgba(155, 0, 0, 0.6)), url(../img/testimonials.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(155, 0, 0, 0.6)), url(../img/testimonials.jpg);
     height: 500px;
     position: relative;
     color: white;
@@ -627,29 +640,6 @@ header{
         font-weight: bolder;
     }
 }
-.testimonials:after{
-    content: "";
-    height: 100px;
-    background: url(../img/wave-large.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.testimonials:before{
-    content: "";
-    height: 100px;
-    background: url(../img/wave-large.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    right: 0;
-    transform: rotateZ(180deg);
-}
 .upcoming{
     .img_wrapper{
         width: 40%;
@@ -659,13 +649,14 @@ header{
         box-shadow: 0px 0px 25px -15px rgba(0,0,0,1);
     }
     .info{
-        width: 50%;
+        width: 40%;
         padding: 30px;
     }
     .cost{
-        width: 10%;
+        width: 20%;
         border-left: 0.5px solid rgba(0,0,0,0.5);
-        padding: 10px;
+        padding: 20px;
+        margin-left: 20px;
         a{
             background: color(secondary);
             padding: 10px;
@@ -677,9 +668,9 @@ header{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(155, 0, 0, 0.6);
         color: white;
-        border-radius: 50%;
+        border-radius: 10px;
         padding: 10px 15px;
         span{
             font-size: 20px;
@@ -687,10 +678,160 @@ header{
         cursor: pointer;
     }
     .right.slick-arrow{
-        right: -50px;
+        right: -20px;
     }
     .left.slick-arrow{
-        left: -50px;
+        left: -20px;
         z-index: 99;
+    }
+}
+.blog{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    .section_title{
+        margin-top: 60px;
+    }
+    .img_wrapper{
+        height: 200px;
+        position: relative;
+    }
+    .top_readme{
+        a{
+           color: color(primary);
+        }
+    }
+    .date{
+        background: color(primary);
+        color: white;
+        position: absolute;
+        padding: 5px;
+        top: 20px;
+        left: 0;
+        transition: 1s ease;
+    }
+    .blog_content{
+        background: color(primary);
+        padding: 5px;
+        color: white;
+    }
+    .read_more{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(155, 0, 0, 0.4);
+        color: white;
+        i{
+            font-size: 50px;
+            padding: 5px;
+        }
+        transform: scaleX(0);
+        transition: 1s ease;
+    }
+    .blog_wrap:hover .read_more{
+        transform: scaleX(1);
+    }
+    .blog_wrap:hover .date{
+        opacity: 0;
+    }
+}
+.insta{
+    .diamond_insta{
+        overflow: hidden;
+        padding: 30px;
+        width: 90%;
+        margin: 0 auto;
+        .item{
+            width: 210px;
+            height: 210px;
+            position: relative;
+            img{
+                width: 150%;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+        }
+        .icon{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: rgba(155, 0, 0, 0.4);
+            color: white;
+            line-height: 200px;
+            font-size: 30px;
+            transform: scaleX(0);
+            transition: 1s ease;
+        }
+        .item:hover .icon{
+            transform: scaleX(1);
+        }
+    }
+}
+
+// FOOTER
+footer{
+    padding-top: 10%;
+    position: relative;
+    color: color(primary);
+    background: #eeeeee;
+    a, p{
+        font-size: 14px;
+    }
+    i{
+        padding: 5px;
+    }
+    .footer_contact{
+        padding: 20px;
+        
+        button{
+            color: white;
+            background: color(primary);
+            padding: 5px 10px;
+            border: none;
+            outline: none;
+        }
+        .social_media{
+            i{
+                padding: 20px;
+                font-size: 25px;
+            }
+        }
+    }
+    .quick_menu{
+        padding: 20px;
+        a{
+            display: block;
+            padding: 10px;
+        }
+        i{
+            transform: rotateZ(90deg);
+            padding: 5px;
+        }
+    }
+}
+footer:before{
+    content: "";
+    height: 100px;
+    background: url(../img/wave-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    transform: rotateZ(180deg);
+}
+.copyright{
+    background: color(primary);
+    color: white;
+    padding-top: 10px;
+    p{
+        font-size: 13px;
     }
 }

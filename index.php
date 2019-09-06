@@ -46,6 +46,7 @@
             <div class="col-sm-12 col-md-5 title">
                 <h2>Nepal The World Of Itself</h2>
                 <p><span>Nepal</span>is called a world in itself because of the diverse ethnicity, rich culture and awe-inspiring natural beauty. Difference in weather, number of people of different religions living harmoniously, art and architectures ,number of centuries old and wide variety of flora-fauna make Nepal truly majestic.</p>
+                <a href="#">Read More >></a>
             </div>
             <div class="col col-sm-12 col-md-6 intro_image">
                 <img src="assets_front/img/nepal.jpg" alt="">
@@ -55,7 +56,10 @@
 </section>
 
 <section class="discover">
-    <h3 class="section_title">Discover Nepal</h3>
+    <div class="section_title">
+        <h3>Discover Nepal</h3>
+        <p>The Land of Majesty and Meditation The Mystical Nepal</p>
+    </div>
     <div class="discover_wrap">
         <div class="place-1 place img_wrapper" style="background: url('assets_front/img/place-1.jpg');">
             <a href="#">
@@ -90,7 +94,7 @@
     </div>
 </section>
 
-<section class="why_us img_wrapper">
+<section class="why_us img_wrapper notch_wrapper">
     <div class="container">
         <div class="row">
             <div class="col col-sm-12 d-flex flex-column why_us_wrap">
@@ -120,7 +124,10 @@
 
 <section class="packages">
     <div class="container">
-        <h3 class="section_title">Our Best Packages</h3>
+        <div class="section_title">
+            <h3>Our Best Packages</h3>
+            <p>Get the latest updates ,offer and discounts on new packages</p>
+        </div>
         <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -255,7 +262,10 @@
     <div class="container">
         <div class="row">
             <div class="col col-sm-12 expectation_wrap">
-                <h3 class="section_title">What can you expect from Nepal</h3>
+                <div class="section_title">
+                    <h3>What can you expect from Nepal</h3>
+                    <p>It's so wonderful world out there, something you have never seen</p>
+                </div>
                 <div class="d-flex justify-content-around text-center">
                     <a href="#" class="box">
                         <img src="assets_front/img/mountain-range.png" class="m-auto" alt="">
@@ -279,7 +289,7 @@
     </div>
 </section>
 
-<section class="testimonials img_wrapper">
+<section class="testimonials img_wrapper notch_wrapper">
     <div class="container">
         <div class="row testimonials_slider">
             <div class="col-sm-8 testimonials_item text-center">
@@ -311,7 +321,7 @@
                     <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
                 </div>
-                <div class="cost d-flex flex-column justify-content-center">
+                <div class="cost d-flex flex-column justify-content-center text-center">
                     <h4>$ 100</h4>
                     <a href="#">Details</a>
                 </div>
@@ -322,11 +332,194 @@
                     <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
                 </div>
-                <div class="cost d-flex flex-column justify-content-center">
+                <div class="cost d-flex flex-column justify-content-center text-center">
                     <h4>$ 100</h4>
                     <a href="#">Details</a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog">
+    <div class="container">
+        <div class="section_title">
+            <h3>Our Blog</h3>
+            <p>Let's find some beautiful place to get lost...</p>
+        </div>
+        <div class="top_readme d-flex justify-content-end">
+            <p><a href="#">Read More >></a></p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 blog_wrap">
+                <a href="#">
+                    <div class="blog_image img_wrapper" style="background: url('assets_front/img/blog-1.jpg');">
+                        <div class="date">
+                            13 MAY
+                        </div>
+                        <div class="read_more d-flex align-items-center flex-column justify-content-center">
+                            <i class="fab fa-readme"></i>
+                            <p>Read More !!</p>
+                        </div>
+                    </div>
+                    <div class="blog_content">
+                        <h6 class="text-center">Lorem ipsum dolor sit amet.</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4 blog_wrap">
+                <a href="#">
+                    <div class="blog_image img_wrapper" style="background: url('assets_front/img/blog-2.jpg');">
+                        <div class="date">
+                            20 JUN
+                        </div>
+                        <div class="read_more d-flex align-items-center flex-column justify-content-center">
+                            <i class="fab fa-readme"></i>
+                            <p>Read More !!</p>
+                        </div>
+                    </div>
+                    <div class="blog_content">
+                        <h6 class="text-center">Lorem ipsum dolor sit amet.</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4 blog_wrap">
+                <a href="#">
+                    <div class="blog_image img_wrapper" style="background: url('assets_front/img/blog-1.jpg');">
+                        <div class="date">
+                            09 OCT
+                        </div>
+                        <div class="read_more d-flex align-items-center flex-column justify-content-center">
+                            <i class="fab fa-readme"></i>
+                            <p>Read More !!</p>
+                        </div>
+                    </div>
+                    <div class="blog_content">
+                        <h6 class="text-center">Lorem ipsum dolor sit amet.</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="insta img_wrapper d-flex flex-column justify-content-center align-items-center">
+    <div class="section_title">
+        <h3>Memories</h3>
+        <p>Tag your instagram photos with #travel and see them here.</p>
+    </div>
+    <div class="diamond_insta">
+        <div class="item">
+            <img src="assets_front/img/insta-1.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-2.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-5.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-1.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-2.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-3.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-2.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-3.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-5.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-1.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-4.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-3.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-2.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <img src="assets_front/img/insta-1.jpg" alt="">
+            <a href="#">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </a>
         </div>
     </div>
 </section>

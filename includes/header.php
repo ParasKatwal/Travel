@@ -19,20 +19,22 @@
     <!-- LIGHTBOX -->
     <link rel="stylesheet" href="assets_front/css/lightbox.min.css">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets_front/css/diamonds.css"/>
 </head>
 <body> 
 
-<header>
-    <div class="top-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="top_socialmedia">
-                <span>Visit our Social page:</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div>
-                <i class="fas fa-mobile"></i> <span>+977-123456</span> | <i class="fas fa-envelope"></i> <span>example@gmail.com</span> </<i>
-            </div>
+<section class="top_nav">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="top_socialmedia">
+            <span>Visit our Social page:</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div>
+            <i class="fas fa-mobile"></i> <span>+977-123456</span> | <i class="fas fa-envelope"></i> <span>example@gmail.com</span> </<i>
         </div>
     </div>
+</section>
+
+<header>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="assets_front/img/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
