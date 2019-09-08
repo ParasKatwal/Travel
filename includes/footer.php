@@ -1,4 +1,36 @@
 
+<section class="application_popup modal" id="ex1">
+    <form>
+        <div class="form-row">
+            <div class="form-group col col-sm-6">
+                <label for="fullname">Full Name</label>
+                <input type="text" class="form-control" id="" placeholder="Enter your full name">
+            </div>
+            <div class="form-group col col-sm-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col col-sm-6">
+                <label for="email">Address</label>
+                <input type="email" class="form-control" id="" placeholder="Enter your full address">
+            </div>
+            <div class="form-group col col-sm-6">
+                <label for="fullname">Phone Number</label>
+                <input type="text" class="form-control" id="" placeholder="Enter your phone number">
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="message">Query</label>
+            <textarea class="form-control" id="" rows="3" placeholder="Enter your query"></textarea>
+        </div>
+        <div class="form-row  mt-4">
+            <button type="submit" class="btn">SUBMIT</button>
+        </div>
+    </form>
+</section>
+
 <footer>
     <div class="container">
         <div class="row footer_contact">
@@ -7,7 +39,7 @@
                 <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
                 <p><i class="fas fa-tty"></i> +9876431</p>
                 <p><i class="fas fa-envelope"></i> example@gmail.com</p>
-                <button>QUICK MESSAGE <i class="fas fa-envelope-open"></i></button>
+                <a class="button" href="#ex1" rel="modal:open"> QUICK MESSAGE <i class="fas fa-envelope-open"></i></a>
             </div>
             <div class="col-sm-12 col-md-6 text-center social_media">
                 <h4>Follow Us on Social Media</h4>

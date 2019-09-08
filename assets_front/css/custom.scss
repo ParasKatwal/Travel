@@ -86,6 +86,18 @@ a{
     margin-top: 40px;
     h3{
         font-weight: bolder;
+        position: relative;
+        padding: 5px;
+    }
+    h3:after{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 1px;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: color(primary);
     }
     p{
         color: black;
@@ -117,6 +129,50 @@ a{
     left: 0;
     right: 0;
 }
+.inner_page_background{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    color: white;
+    h1{
+        font-weight: bolder;
+        position: relative;
+    }
+    a{
+        color: white;
+    }
+    p{
+        padding: 5px;
+    }    
+}
+.country_page_background{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    color: white;
+    h1{
+        font-weight: bolder;
+        position: relative;
+    }
+    a{
+        color: white;
+    }
+    p{
+        padding: 5px;
+    }    
+}
+.country_page_background:after{
+    content: "";
+    height: 100px;
+    background: url(../img/wave-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 // HEADER
 .top_nav{
     z-index: 2;
@@ -361,7 +417,6 @@ header{
     .title{
         margin: 40px auto;
     }
-    
     .intro_image{
         img{
             width: 100%;
@@ -506,9 +561,9 @@ header{
     }
     .package_wrap{
         position: relative;
-        width: 30%;
+        width: 33.3%;
         color: white;
-        margin: 17px;
+        padding: 20px;
         .image{
             height: 200px;
             width: 100%;
@@ -524,7 +579,7 @@ header{
             font-size: 14px;
             padding: 10px;
             position: absolute;
-            top: 0;
+            top: 20px;
             transition: 0.5s ease;
         }
         .details{
@@ -736,7 +791,7 @@ header{
         opacity: 0;
     }
 }
-.insta{
+.insta{ 
     .diamond_insta{
         overflow: hidden;
         padding: 30px;
@@ -789,12 +844,13 @@ footer{
     .footer_contact{
         padding: 20px;
         
-        button{
+        .button{
             color: white;
             background: color(primary);
-            padding: 5px 10px;
+            padding: 10px;
             border: none;
             outline: none;
+
         }
         .social_media{
             i{
@@ -833,5 +889,459 @@ footer:before{
     padding-top: 10px;
     p{
         font-size: 13px;
+    }
+}
+.application_popup{
+    overflow: visible;
+    background:white;
+  
+    form{
+        width: 100%;
+        padding: 20px;
+
+        label{
+            color: color(primary);
+            font-size: 19px;
+        }
+        button{
+            background: color(primary);
+            color: white;
+            border: 1px solid color(primary);
+            transition: 1s ease;
+            margin: auto;
+            cursor: pointer;
+        }
+        button:hover{
+            background: white;
+            color: color(primary);
+        }
+        input[type="text"], input[type="email"], textarea{
+            border: none;
+            color: color(primary);
+            border: 1px solid color(primary);
+        }
+        input::placeholder, textarea::placeholder{
+            color: color(primary);
+            font-size: 14px;
+            opacity: 0.5;
+        }
+        input:focus, select:focus, textarea:focus{
+            background: none;
+            outline:0px !important;
+            -webkit-appearance:none;
+            box-shadow: none !important;
+            border: 1px solid color(primary);
+        }
+    }
+}
+.modal{
+    background: white !important;
+    max-width: 50% !important;
+}
+
+//COUNTRY
+.country{
+    .country_page_background{
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/nepal_bg.jpg);
+    }
+    .country_wrap{
+        margin-top: 50px;
+        h3{
+            color: color(primary);
+        }
+        img{
+            width: 100%;
+            padding-bottom: 10px;
+        }
+        .info{
+            color: color(primary);
+            padding: 10px;
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+.activity_wrap{
+    position: relative;
+    color: white;
+    padding: 20px;
+    .image{
+        height: 200px;
+        width: 100%;
+        position: relative;
+    }
+    h6{
+        background: color(primary);
+        padding: 10px;
+    }
+    .details{
+        padding: 10px;
+        background: rgba(155, 0, 0, 0.4);
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform: scaleX(0);
+        transition: 1s ease;
+        button{
+            background: color(secondary);
+            color: white;
+            outline: none;
+            border: none;
+            width: 50%;
+            height: 20%;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .dis{
+        background: #f5f5f5;
+        p{
+            color: color(primary);
+            padding: 10px;
+        }
+    }
+}
+.activity_wrap:hover .details{
+    transform: scaleX(1);
+}
+//PACKAGES
+.country_package{
+    
+}
+
+// BLOG
+.blog_inner{
+    .inner_page_background{
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/blog_inner.jpg);
+    }
+    .img_wrapper{
+        height: 300px;
+        position: relative;
+    }
+    .date{
+        background: color(primary);
+        color: white;
+        position: absolute;
+        padding: 5px;
+        top: 20px;
+        left: 0;
+        transition: 1s ease;
+    }
+    .blog_wrapper{
+        margin: 30px auto;
+    }
+    .blog_item{
+        margin: 50px auto;
+        h3, a{
+            color: color(primary);
+        }
+        p{
+            padding:0px 5px;
+        }
+    }
+}
+
+// ABOUT US
+.about_us{
+    .inner_page_background{
+        background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/about_us.jpg);
+    }
+    .img_wrapper{
+        height: 300px;
+    }
+    .about_wrap{
+        margin-top: 40px;
+    }
+    h2{
+        color: color(primary);
+    }
+    span{
+        position: relative;
+    }
+    span:before{
+        content: "";
+        background: color(primary);
+        position: absolute;
+        height: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        left: -70px;
+    }
+    .about_img{
+        width: 100%;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(15, minmax(50px, auto));
+
+        .img-1{
+            grid-column: 1/4;
+            grid-row: 1/5;
+        }
+        .img-2{
+            grid-column: 3/6;
+            grid-row: 3/7;
+        }
+        .img-3{
+            grid-column: 2/5;
+            grid-row: 6/10;
+        }
+        .img-4{
+            grid-column: 3/6;
+            grid-row: 9/13;
+        }
+        .img-5{
+            grid-column: 1/4;
+            grid-row: 12/16;
+        }
+    }
+}
+
+// CONTACT 
+.contact_us{
+    .inner_page_background{
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../img/contact.jpg);
+    }
+    i{
+        padding: 5px;
+        font-size: 30px;
+        color: color(primary);
+    }
+    .details, .inquiry{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .section_title{
+        text-align: start;
+        h3:after{
+            display: none;
+        }
+    }
+    form{
+        button{
+            background: color(primary);
+            color: white;
+            border: 1px solid color(primary);
+            transition: 1s ease;
+            margin: auto;
+            cursor: pointer;
+        }
+        button:hover{
+            background: white;
+            color: color(primary);
+        }
+        input:focus, select:focus, textarea:focus{
+            background: none;
+            outline:0px !important;
+            -webkit-appearance:none;
+            box-shadow: none !important;
+            border: 1px solid color(primary);
+        }
+    }
+    .map{
+        overflow: hidden;
+    }
+}
+
+//SINGLE BLOG
+.single_blog{
+    .inner_page_background{
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/blog_inner.jpg);
+    }
+    .img_wrapper{
+        height: 300px;
+        position: relative;
+    }
+    .date{
+        background: color(primary);
+        color: white;
+        position: absolute;
+        padding: 5px;
+        top: 20px;
+        left: 0;
+        transition: 1s ease;
+    }
+    .info{
+        padding: 20px;
+        color: color(primary);
+        span{
+            font-weight: bolder;
+        }
+        i{
+            padding: 5px;
+        }
+    }
+    .related_h3{
+        color: color(primary);
+        padding: 20px;
+    }
+    .related_blog{
+        margin: 20px auto;
+        .img_wrapper{
+            height: 200px;
+            position: relative;
+        }
+        .date{
+            background: color(primary);
+            color: white;
+            position: absolute;
+            padding: 5px;
+            top: 20px;
+            left: 0;
+            transition: 1s ease;
+        }
+        .blog_content{
+            background: color(primary);
+            padding: 5px;
+            color: white;
+        }
+        .read_more{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(155, 0, 0, 0.4);
+            color: white;
+            i{
+                font-size: 50px;
+                padding: 5px;
+            }
+            transform: scaleX(0);
+            transition: 1s ease;
+        }
+        .blog_wrap:hover .read_more{
+            transform: scaleX(1);
+        }
+        .blog_wrap:hover .date{
+            opacity: 0;
+        }
+    }
+}
+
+//ACTIVITY
+.activity, .activity_innerpage{
+    .img_wrapper{
+        height: 100vh;
+    }
+    .activity_slider{
+        position: relative;
+        .slick-arrow{
+            position: absolute;
+            color: white;
+            top: 50%;
+            transform: translateY(-50%);
+            span{
+                font-size: 25px;
+            }
+            cursor: pointer;
+        }
+        .right.slick-arrow{
+            right: 15px;
+            padding: 10px;
+        }
+        .left.slick-arrow{
+            left: 15px;
+            z-index: 99;
+            padding: 10px;
+        }
+    }
+    .activity_slider:before{
+        z-index: 999;
+        content: "";
+        height: 100px;
+        background: url(../img/wave-large.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .menu{
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+        color: white;
+    }
+    .section_title{
+        p{
+            text-align: start;
+            padding: 10px;
+        }
+    }
+    .sub_title{
+        padding: 10px;
+        h3{
+            color: color(primary);
+            position: relative;
+        }
+        h3:before{
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            width: 5px;
+            background: color(primary);
+            left: -20px;
+        }
+    }
+    .activity_wrap{
+        .img_wrapper{
+            height: 300px;
+        }
+    }
+}
+
+// ACTIVITY INNER PAGE
+.activity_innerpage{
+    .activity_package_wrapper{
+        color: color(primary);
+        .img_wrapper{
+            height: 200px;
+            position: relative;
+        }
+        h5{
+            padding: 5px;
+            font-weight: bolder;
+        }
+        .text-center{
+            background: #f5f5f5;
+            padding: 10px;
+        }
+        span{
+            background: color(secondary);
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .btn{
+            background: rgba(255, 255, 255, 0.3);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transform: scaleX(0);
+            transition: 1s ease;
+            p{
+                line-height: 200px;
+                color: white;
+                background: color(secondary);
+                display: inline;
+                padding: 15px;
+                border-radius: 5px;
+                font-weight: bolder;
+            }
+        }
+        .package_item:hover .btn{
+            transform: scaleX(1);
+        }
     }
 }

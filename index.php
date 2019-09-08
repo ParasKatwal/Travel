@@ -14,7 +14,7 @@
                                 <div class="col-md-8 col-lg-6 slider-inner">
                                     <h1 class="big animated">Land Of Culture</h1>
                                     <p class="animated">Visit One Of Richest Country Of Culture</p>
-                                    <a class="text-uppercase animated" href="">Learn More</a>
+                                    <a class="text-uppercase animated" href="about.php">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@
                                 <div class="col-md-8 col-lg-6 slider-inner">
                                     <h1 class="big animated">Land Of Mountains</h1>
                                     <p class="animated">Explore the Wonders of Himalayaes Lands</p>
-                                    <a class="text-uppercase animated" href="">Learn More</a>
+                                    <a class="text-uppercase animated" href="about.php">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -46,10 +46,10 @@
             <div class="col-sm-12 col-md-5 title">
                 <h2>Nepal The World Of Itself</h2>
                 <p><span>Nepal</span>is called a world in itself because of the diverse ethnicity, rich culture and awe-inspiring natural beauty. Difference in weather, number of people of different religions living harmoniously, art and architectures ,number of centuries old and wide variety of flora-fauna make Nepal truly majestic.</p>
-                <a href="#">Read More >></a>
+                <a href="about.php">Read More >></a>
             </div>
             <div class="col col-sm-12 col-md-6 intro_image">
-                <img src="assets_front/img/nepal.jpg" alt="">
+                <img src="assets_front/img/intro_bg.jpg" alt="">
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body d-flex flex-wrap">
                         <div class="tour-1 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/tour-1.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -155,7 +155,7 @@
                             </a>
                         </div>
                         <div class="tour-2 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/tour-2.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -172,7 +172,7 @@
                             </a>
                         </div>
                         <div class="tour-3 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/tour-1.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -201,7 +201,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body d-flex flex-wrap">
                         <div class="tour-1 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/trek-1.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -218,7 +218,7 @@
                             </a>
                         </div>
                         <div class="tour-2 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/trek-2.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -235,7 +235,7 @@
                             </a>
                         </div>
                         <div class="tour-3 package_wrap">
-                            <a href="#">
+                            <a href="country_package.php">
                                 <div class="image img_wrapper" style="background: url('assets_front/img/trek-1.jpg');">
                                     <div class="details d-flex justify-content-center align-items-center flex-column">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
@@ -348,11 +348,11 @@
             <p>Let's find some beautiful place to get lost...</p>
         </div>
         <div class="top_readme d-flex justify-content-end">
-            <p><a href="#">Read More >></a></p>
+            <p><a href="blog.php">Read More >></a></p>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-4 blog_wrap">
-                <a href="#">
+                <a href="single_blog.php">
                     <div class="blog_image img_wrapper" style="background: url('assets_front/img/blog-1.jpg');">
                         <div class="date">
                             13 MAY

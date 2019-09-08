@@ -1,10 +1,19 @@
 $(document).ready(function(){
+
+    $('a[href="#ex1"]').click(function (){
+        $(this).modal({
+            fadeDuration: 1000,
+            fadeDelay: 0.50
+        });
+        return false;
+    })
+
     $('.ct-slick-homepage').on('init', function(event, slick){
         $('.animated').addClass('activate fadeInUp');
     });   
   
     $('.ct-slick-homepage').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: false,
         prevArrow: '<div class="left"><span class="fa fa-angle-left"></span></div>',
@@ -41,7 +50,7 @@ $(document).ready(function(){
     $('.upcoming_slider').slick({
         autoplay: true,
         autoplaySpeed: 3000,
-        pauseOnHover: false,
+        pauseOnHover: true,
         prevArrow: '<div class="left"><span class="fa fa-angle-left"></span></div>',
         nextArrow: '<div class="right"><span class="fa fa-angle-right"></span></div>'
     });
@@ -50,11 +59,18 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         pauseOnHover: true,
     });
+    $('.activity_slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        prevArrow: '<div class="left"><span class="fa fa-angle-left"></span></div>',
+        nextArrow: '<div class="right"><span class="fa fa-angle-right"></span></div>'
+    });
 
     $(".diamond_insta").diamonds({
         size : 210,
         gap : 5,
-        hideIncompleteRow :false,
+        hideIncompleteRow : false,
         autoRedraw :true,
         itemSelector :".item"
     });

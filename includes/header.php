@@ -44,22 +44,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">Home</a>
+                    <a class="nav-link menu_hover" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">Trekking</a>
+                    <a class="nav-link menu_hover" href="country.php">Nepal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">Climbing</a>
+                    <a class="nav-link menu_hover" href="country.php">Tibet</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">Blog</a>
+                    <a class="nav-link menu_hover" href="country.php">Bhutan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">About Us</a>
+                    <a class="nav-link menu_hover" href="blog.php">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu_hover" href="#">Contact</a>
+                    <a class="nav-link menu_hover" href="about.php">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu_hover" href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
