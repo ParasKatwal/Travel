@@ -132,7 +132,7 @@
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">NEPAL TOUR</button>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fas fa-angle-double-down"></i> NEPAL TOUR</button>
                     </h2>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -195,7 +195,7 @@
             <div class="card">
                 <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">NEPAL TREKKING</button>
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fas fa-angle-double-down"></i> NEPAL TREKKING</button>
                     </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -405,7 +405,7 @@
 
 <section class="insta img_wrapper d-flex flex-column justify-content-center align-items-center">
     <div class="section_title">
-        <h3>Memories</h3>
+        <h3>Instagram Feeds</h3>
         <p>Tag your instagram photos with #travel and see them here.</p>
     </div>
     <div class="diamond_insta">

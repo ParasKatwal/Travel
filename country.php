@@ -34,7 +34,6 @@
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/trekking.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Details</button>
                             </div>
                         </div>
@@ -50,7 +49,6 @@
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/climbing.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Details</button>
                             </div>
                         </div>
@@ -66,7 +64,6 @@
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/trekking.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Details</button>
                             </div>
                         </div>

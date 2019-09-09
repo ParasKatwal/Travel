@@ -74,7 +74,42 @@ $(document).ready(function(){
         autoRedraw :true,
         itemSelector :".item"
     });
-        
+    
+    $(window).scroll(function(e){ 
+        var $el = $('.details_menu'); 
+        if ($(this).scrollTop() > 620){ 
+          $el.css({'position': 'fixed', 'top': '-20px', 'transition': '1s ease'}); 
+        }
+        if ($(this).scrollTop() < 620){
+          $el.css({'position': 'absolute', 'top': '20px'}); 
+        } 
+    });
+
+    $('.photo_slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        prevArrow: '<div class="left"><span class="fa fa-angle-left"></span></div>',
+        nextArrow: '<div class="right"><span class="fa fa-angle-right"></span></div>'
+    });
+
+    $('.details_menu a' ).on( 'click', function(e){
+        var href = $(this).attr( 'href' );    
+        $( 'html, body' ).animate({
+              scrollTop: $( href ).offset().top
+        }, '0' );
+        e.preventDefault();
+    });
+
+    $('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
 
 });
   

@@ -31,8 +31,7 @@
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/everest.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
-                                <button>View Packages</button>
+                                <button>View Region</button>
                             </div>
                         </div>
                         <div class="dis">
@@ -47,7 +46,6 @@
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/annapurna.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Region</button>
                             </div>
                         </div>
@@ -63,7 +61,6 @@
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/other.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Region</button>
                             </div>
                         </div>
@@ -79,7 +76,6 @@
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/rafting.jpg');">
                             <div class="details d-flex justify-content-center align-items-center flex-column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia.</p>
                                 <button>View Region</button>
                             </div>
                         </div>
