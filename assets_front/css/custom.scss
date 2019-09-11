@@ -229,6 +229,12 @@ header{
             }
         }
     }
+    .navbar-toggler{
+        background: color(primary);
+        i{
+            color: white;
+        }
+    }
 }
 
 // INDEX 
@@ -723,27 +729,30 @@ header{
     .upcoming_slider{
         box-shadow: 0px 0px 25px -15px rgba(0,0,0,1);
     }
-    .info{
-        width: 40%;
-        padding: 30px;
+    .details{
+        width: 60%;
+        padding: 20px;
     }
     .cost{
-        width: 20%;
-        border-left: 0.5px solid rgba(0,0,0,0.5);
         padding: 20px;
         margin-left: 20px;
+        h4{
+            padding: 10px;
+        }
         a{
             background: color(secondary);
-            padding: 10px;
+            padding: 10px 30px;
             color: white;
             text-align: center;
+            margin: 10px;
+            border-radius: 5px;
         }
     }
     .slick-arrow{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: rgba(155, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.3);
         color: white;
         border-radius: 10px;
         padding: 10px 15px;
@@ -863,14 +872,12 @@ footer{
     }
     .footer_contact{
         padding: 20px;
-        
         .button{
             color: white;
             background: color(primary);
             padding: 10px;
             border: none;
             outline: none;
-
         }
         .social_media{
             i{

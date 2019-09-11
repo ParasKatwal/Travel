@@ -29,7 +29,7 @@
             <p>Get the latest updates ,offer and discounts on new packages</p>
         </div>
         <div class="row country_activity">
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="tour-1 activity_wrap">
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/trekking.jpg');">
@@ -44,7 +44,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="tour-1 activity_wrap">
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/climbing.jpg');">
@@ -59,7 +59,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="tour-1 activity_wrap">
                     <a href="activity.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/trekking.jpg');">

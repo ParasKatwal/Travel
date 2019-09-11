@@ -26,7 +26,7 @@
             <h3>Trekking In Nepal</h3>
         </div>
         <div class="row activity_option">
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="tour-1 activity_wrap">
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/everest.jpg');">
@@ -41,7 +41,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="tour-1 activity_wrap">
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/annapurna.jpg');">
@@ -56,7 +56,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="tour-1 activity_wrap">
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/other.jpg');">
@@ -71,7 +71,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="tour-1 activity_wrap">
                     <a href="activity_innerpage.php">
                         <div class="image img_wrapper" style="background: url('assets_front/img/rafting.jpg');">

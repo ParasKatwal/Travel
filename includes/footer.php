@@ -2,21 +2,21 @@
 <section class="application_popup modal" id="ex1">
     <form>
         <div class="form-row">
-            <div class="form-group col col-sm-6">
+            <div class="form-group col col-sm-12 col-md-12">
                 <label for="fullname">Full Name</label>
                 <input type="text" class="form-control" id="" placeholder="Enter your full name">
             </div>
-            <div class="form-group col col-sm-6">
+            <div class="form-group col col-sm-12 col-md-12">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="" placeholder="Enter your email">
             </div>
         </div>
         <div class="form-row">
-            <div class="form-group col col-sm-6">
+            <div class="form-group col col-sm-12 col-md-12">
                 <label for="email">Address</label>
                 <input type="email" class="form-control" id="" placeholder="Enter your full address">
             </div>
-            <div class="form-group col col-sm-6">
+            <div class="form-group col col-sm-12 col-md-12">
                 <label for="fullname">Phone Number</label>
                 <input type="text" class="form-control" id="" placeholder="Enter your phone number">
             </div>

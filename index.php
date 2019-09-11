@@ -261,7 +261,7 @@
 <section class="expectation">
     <div class="container">
         <div class="row">
-            <div class="col col-sm-12 expectation_wrap">
+            <div class="col-sm-12 expectation_wrap">
                 <div class="section_title">
                     <h3>What can you expect from Nepal</h3>
                     <p>It's so wonderful world out there, something you have never seen</p>
@@ -317,24 +317,34 @@
         <div class="row upcoming_slider">
             <div class="col-sm-12 d-flex slider_item">
                 <div class="image img_wrapper" style="background: url('assets_front/img/upcoming-1.jpg');"></div>
-                <div class="info">
-                    <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
-                </div>
-                <div class="cost d-flex flex-column justify-content-center text-center">
-                    <h4>$ 100</h4>
-                    <a href="#">Details</a>
+                <div class="details">
+                    <div class="dis">
+                        <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
+                    </div>
+                    <div class="cost d-flex flex-column justify-content-center text-center">
+                        <h4>$ 100</h4>
+                        <div>
+                            <a href="#">Details</a>
+                            <a href="#">Book</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-12 d-flex slider_item">
                 <div class="image img_wrapper" style="background: url('assets_front/img/upcoming-1.jpg');"></div>
-                <div class="info">
-                    <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
-                </div>
-                <div class="cost d-flex flex-column justify-content-center text-center">
-                    <h4>$ 100</h4>
-                    <a href="#">Details</a>
+                <div class="details">
+                    <div class="dis">
+                        <h5>Lorem ipsum dolor sit amet - 07 DAYS</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque, laudantium repellendus beatae ducimus molestias maiores! Provident a veniam dolorem.</p>
+                    </div>
+                    <div class="cost d-flex flex-column justify-content-center text-center">
+                        <h4>$ 100</h4>
+                        <div>
+                            <a href="#">Details</a>
+                            <a href="#">Book</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

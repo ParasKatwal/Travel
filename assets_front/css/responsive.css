@@ -1,0 +1,197 @@
+.package_innerpage .menu{
+    top: 35%;
+}
+
+@media (max-width: 992px){
+    header nav .collapse ul{
+        float: none;
+    }
+    header nav .navbar-collapse{
+        background: white;
+    }
+    header nav .nav-item{
+        color: #9b0000;
+        margin: 5px auto;
+    }
+    footer{
+        padding-top: 15%;
+    }
+    footer .footer_contact{
+        padding: 10px;
+    }
+    footer .footer_contact .social_media i{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .packages .package_wrap .details button{
+        height: auto;
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px){
+    .top_slider:after{
+        background: url(../img/wave-medium.png);
+        bottom: -10px;
+    }
+    .notch_wrapper:before{
+        background: url(../img/wave-medium-reversed.png);
+        transform: none;
+        height: 90px;
+        top: -15px;
+    }
+    .notch_wrapper:after{
+        background: url(../img/wave-medium.png);
+        bottom: -15px;
+        border: none;
+        height: 90px;
+    }
+    .packages .package_wrap{
+        width: 50%;
+    }
+    .expectation .expectation_wrap img{
+        width: 50%;
+    }
+    .upcoming .img_wrapper{
+        height: auto;
+    }
+    .upcoming .cost{
+        padding: 10px;
+    }
+    .upcoming .cost h4{
+        padding: 0;
+        margin: 0;
+    }
+    .upcoming .cost a{
+        display: block;
+        margin: 5px;
+        padding: 5px 20px;
+    }
+    .blog .blog_wrap{
+        margin-bottom: 15px;
+    }
+    footer .footer_contact .social_media {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px){
+    .top_slider h1{
+        font-size: 40px !important;
+    }
+    .top_slider p{
+        font-size: 20px !important;
+    }
+    .top_slider a{
+        font-size: 15px;
+    }
+    .top_slider .slider-inner{
+        padding-left: 50px;
+    }
+    .discover .discover_wrap{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(11, minmax(50px, auto));
+    }
+    .discover .place-1{
+        grid-column: 1/6;
+        grid-row: 1/6;
+    }
+    .discover .place-1 a{
+        top: 80%;
+    }
+    .discover .place-2{
+        grid-column: 1/4;
+        grid-row: 6/9;
+    }
+    .discover .place-3{
+        grid-column: 4/6;
+        grid-row: 6/9;
+    }
+    .discover .place-4{
+        grid-column: 1/4;
+        grid-row:9/12;
+    }
+    .discover .place-5{
+        grid-column: 4/6;
+        grid-row: 9/12;
+    }
+    .why_us i{
+        font-size: 30px;
+    }
+    .why_us a{
+        font-size: 13px;
+    }
+    .expectation .expectation_wrap img{
+        width: 70%;
+    }
+    .upcoming .right.slick-arrow{
+        right: 0px;
+    }
+    .upcoming .left.slick-arrow{
+        left: 0;
+    }
+    .packages .package_wrap{
+        width: 100%;
+    }
+    .package_innerpage .menu{
+        top: 20%;
+    }
+    .package_innerpage .price{
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .package_innerpage .date .tab_content_wrap{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .package_innerpage .details_menu p{
+        font-size: 12px;
+    }
+    .package_innerpage .details_menu i{
+        font-size: 18px;
+    }
+    .package_innerpage .menu h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 484px){
+    header nav{
+        top: 50px;
+    }
+    .top_nav .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .upcoming .img_wrapper{
+        width: 100%;
+        height: 300px;
+    }
+    .upcoming .details{
+        width: 100%;
+    }
+    .upcoming .slider_item{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px){
+    .why_us i{
+        font-size: 20px;
+    }
+    .why_us a{
+        font-size: 12px;
+    }
+    .expectation .expectation_wrap img{
+        width: 80%;
+    }
+    .package_innerpage .details_menu p{
+        font-size: 10px;
+    }
+    .package_innerpage .details_menu i{
+        font-size: 15px;
+    }
+}

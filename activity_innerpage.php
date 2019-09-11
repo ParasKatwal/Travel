@@ -27,7 +27,7 @@
             <h3>Everest Region Packages</h3>
         </div>
         <div class="row activity_package_wrapper ">
-            <div class="col-sm-6 col-md-4 package_item">
+            <div class="col-sm-12 col-md-4 package_item">
                 <a href="package_innerpage.php">
                     <div class="image img_wrapper" style="background: url('assets_front/img/trek-2.jpg');">
                         <div class="btn"><p>View Package</p></div>
@@ -40,7 +40,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 package_item">
+            <div class="col-sm-12 col-md-4 package_item">
                 <a href="package_innerpage.php">
                     <div class="image img_wrapper" style="background: url('assets_front/img/trek-1.jpg');">
                         <div class="btn"><p>View Package</p></div>
@@ -53,7 +53,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 package_item">
+            <div class="col-sm-12 col-md-4 package_item">
                 <a href="package_innerpage.php">
                     <div class="image img_wrapper" style="background: url('assets_front/img/trek-2.jpg');">
                         <div class="btn"><p>View Package</p></div>

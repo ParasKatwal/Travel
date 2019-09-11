@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    $(".navbar-collapse").collapse('hide');
+
     $('a[href="#ex1"]').click(function (){
         $(this).modal({
             fadeDuration: 1000,
